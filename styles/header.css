@@ -11,13 +11,20 @@
             margin: 0;
         }
     }
+
+    .image {
+        width: 20%;
+        min-width: 150px;
+        max-width: 250px;
+    }
 }
 
 .btn {
-    color: var(--main-text-color);
+    color: #fff;
     background-color: var(--main-brand-color);
     text-decoration: none;
     padding: 0.7rem;
     display: inline-block;
     border-radius: 8px;
+    border-color: var(--border-color);
 }
