@@ -16,6 +16,16 @@
     font-family: var(--main-font-family);
 }
 
+.btn {
+    color: #fff;
+    background-color: var(--main-brand-color);
+    text-decoration: none;
+    padding: 0.7rem;
+    display: inline-block;
+    border-radius: 8px;
+    border-color: var(--border-color);
+}
+
 * {
     box-sizing: border-box;
 }
