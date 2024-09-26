@@ -9,20 +9,22 @@
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
 
 
 </head>
 
 <body class="main-bg">
-    <header class="header">
+    <header id="home" class="header">
         <img class="image" src="assets/rc_logo.png" alt="Ramiro Covian brand">
         <nav class="navbar">
             <ul class="list">
                 <li class="item">
-                    <a class="btn" href="">Inicio</a>
+                    <a class="btn" href="#home">Inicio</a>
                 </li>
                 <li class="item">
-                    <a class="btn" href="">Sobre mí</a>
+                    <a class="btn" href="#about-me">Sobre mí</a>
                 </li>
                 <li class="item">
                     <a class="btn" href="">Portfolio</a>
@@ -39,7 +41,7 @@
             <div class="image"></div>
             <div class="content">
                 <img class="selfie" src="assets/selfie.jpg" alt="Ramiro-Covian selfie">
-                <h2 class="h-1">Ramiro Covian</h2>
+                <h2 id="about-me" class="h-1">Ramiro Covian</h2>
                 <!-- <h6>Backend Developer</h6> -->
                 <p class="text-presentation">Soy Backend Developer especializado en la creación de APIs utilizando
                     Flask,
@@ -58,16 +60,20 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <div>
-            <ul>
-                <li>
-                    <a href="https://www.linkedin.com/in/ramiro-covian" target="_blank" rel="noopener noreferrer"
-                        alt="Sigueme en linkedin">LinkedIn</a>
+            <ul class="list">
+                <li class="item">
+                    <a class="btn-social" href="https://www.linkedin.com/in/ramirocovian/" target="_blank"
+                        rel="noopener noreferrer" alt="Sigueme en linkedin">
+                        <strong>LinkedIn</strong>
+                    </a>
                 </li>
                 <li>
-                    <a href="https://github.com/RamiroCovian" target="_blank" rel="noopener noreferrer"
-                        alt="Sigueme en GitHub">GitHub</a>
+                    <a class="btn-social" href="https://github.com/RamiroCovian" target="_blank"
+                        rel="noopener noreferrer" alt="Sigueme en GitHub">
+                        <strong>GitHub</strong>
+                    </a>
                 </li>
             </ul>
         </div>
