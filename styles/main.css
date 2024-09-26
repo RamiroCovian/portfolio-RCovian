@@ -24,7 +24,9 @@
         .text-presentation {
             font-weight: 600;
             font-size: 0.7rem;
-            margin: 0.8rem;
+            width: 90%;
+            margin: 10px auto;
+            max-width: 768px;
         }
 
         .list {
@@ -51,6 +53,8 @@
     .image {
         background-image: url(../assets/BANNER3.JPG);
         opacity: 0.3;
+        background-size: cover;
+        background-position: center;
         position: absolute;
         left: 0;
         top: 0;
