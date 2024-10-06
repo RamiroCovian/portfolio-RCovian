@@ -8,16 +8,6 @@
     border-color: var(--border-color);
 }
 
-.contact {
-    color: var(--main-text-color);
-    background-color: var(--secondary-brand-color);
-    text-decoration: none;
-    padding: 0.7rem;
-    display: inline-block;
-    border-radius: 8px;
-    border-color: var(--border-color);
-}
-
 .social {
     margin: 3px 10px;
     padding: 0.3rem;
