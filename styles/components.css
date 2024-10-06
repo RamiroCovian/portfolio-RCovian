@@ -1,0 +1,31 @@
+.btn {
+    color: #fff;
+    background-color: var(--main-brand-color);
+    text-decoration: none;
+    padding: 0.7rem;
+    display: inline-block;
+    border-radius: 8px;
+    border-color: var(--border-color);
+}
+
+.contact {
+    color: var(--main-text-color);
+    background-color: var(--secondary-brand-color);
+    text-decoration: none;
+    padding: 0.7rem;
+    display: inline-block;
+    border-radius: 8px;
+    border-color: var(--border-color);
+}
+
+.social {
+    margin: 3px 10px;
+    padding: 0.3rem;
+    display: inline-block;
+    font-size: 0.6rem;
+    text-decoration: none;
+    color: var(--main-text-color);
+    background-color: var(--secondary-brand-color);
+    border: 2px, solid var(--border-color);
+    border-radius: 8px;
+}

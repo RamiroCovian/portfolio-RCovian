@@ -36,16 +36,6 @@
 
             .item {
                 margin-bottom: 1rem;
-
-                .btn-contact {
-                    color: var(--main-text-color);
-                    background-color: var(--secondary-brand-color);
-                    text-decoration: none;
-                    padding: 0.7rem;
-                    display: inline-block;
-                    border-radius: 8px;
-                    border-color: var(--border-color);
-                }
             }
         }
     }
@@ -60,5 +50,6 @@
         top: 0;
         right: 0;
         bottom: 0;
+        width: 100%;
     }
 }
