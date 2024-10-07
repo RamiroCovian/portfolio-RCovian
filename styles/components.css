@@ -10,7 +10,7 @@
     transition: background-color 0.3s linear;
 }
 
-.social {
+.secondary {
     margin: 3px 10px;
     padding: 0.3rem;
     display: inline-block;
@@ -20,6 +20,49 @@
     background-color: var(--secondary-brand-color);
     border: 2px, solid var(--border-color);
     border-radius: 8px;
+}
+
+.form__h1 {
+    text-align: center;
+    margin: 0;
+    margin-top: 1rem;
+    color: var(--bg-color);
+
+}
+
+.form__element {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    color: var(--bg-color);
+
+    .form__label {
+        margin-top: 0.5rem;
+    }
+
+
+    .input {
+        padding: 1rem;
+        border-radius: 6px;
+        border: none;
+        background-color: var(--bg-color);
+        color: var(--main-text-color);
+    }
+}
+
+.form__actions {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.form__fieldset {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    align-items: center;
+    gap: 0.3rem;
 }
 
 
@@ -37,6 +80,10 @@
 }
 
 @media screen and (hover:hover) {
+    .pointer {
+        cursor: pointer;
+    }
+
     .btn {
         cursor: pointer;
 
@@ -45,9 +92,9 @@
         }
     }
 
-    .social {
+    .secondary {
         &:hover {
-            background-color: transparent;
+            background-color: var(--bg-color);
         }
     }
 }
