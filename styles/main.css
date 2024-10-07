@@ -55,12 +55,14 @@
     }
 }
 
+/* Media query para modificar estilos del contenido del banner dependiendo tamano de pantalla */
 @media screen and (width > 768px) {
     .banner {
         .content {
             display: flex;
             flex-direction: row;
             align-items: center;
+            justify-content: center;
 
             .selfie {
                 margin: 1.5rem;
