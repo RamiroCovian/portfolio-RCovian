@@ -21,14 +21,32 @@
     border-radius: 8px;
 }
 
+
 @media screen and (width > 768px) {
     .btn {
         font-size: 1rem;
         padding: 0.7rem;
+
     }
 
     .social {
         font-size: 0.7rem;
         padding: 0.5rem;
+    }
+}
+
+@media screen and (hover:hover) {
+    .btn {
+        cursor: pointer;
+
+        &:hover {
+            background-color: var(--main-brand-color-dark);
+        }
+    }
+
+    .social {
+        &:hover {
+            background-color: transparent;
+        }
     }
 }
