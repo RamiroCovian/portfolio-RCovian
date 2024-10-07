@@ -42,6 +42,7 @@
 
 
     .input {
+        width: 100%;
         padding: 1rem;
         border-radius: 6px;
         border: none;
@@ -72,6 +73,7 @@
         padding: 0.7rem;
 
     }
+
 
     .social {
         font-size: 0.7rem;
