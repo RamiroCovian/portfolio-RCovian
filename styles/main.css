@@ -69,7 +69,6 @@
             .skills-name {
                 font-size: 0.7rem;
                 font-weight: 600;
-
             }
 
             .progress {
@@ -171,6 +170,10 @@
 
             .progress-bar-main {
                 width: 80%;
+
+                .skills-name {
+                    font-size: 0.8rem;
+                }
             }
         }
 
