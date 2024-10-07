@@ -105,53 +105,62 @@
             </div>
         </section>
         <section id="form" class="form">
-            <h1>Contactame</h1>
+            <h1 class="form__h1">Contactame</h1>
             <form method="post">
                 <div class="form__element">
-                    <label for="firstname">Nombre</label>
-                    <input type="text" id="firstname" name="firstname" autocomplete="firstname" required
+                    <label class="form__label" for="firstname">Nombre</label>
+                    <input class="input" type="text" id="firstname" name="firstname" autocomplete="firstname" required
                         placeholder="Pon tu nombre">
                 </div>
                 <div class="form__element">
-                    <label for="surname">Apellido</label>
-                    <input type="text" id="surname" name="surname" autocomplete="surname" required
+                    <label class="form__label" for="surname">Apellido</label>
+                    <input class="input" type="text" id="surname" name="surname" autocomplete="surname" required
                         placeholder="Pon tu apellido">
                 </div>
                 <div class="form__element">
-                    <label for="phone">Telefono</label>
-                    <input type="tel" id="phone" name="phone" autocomplete="phone" required
+                    <label class="form__label" for="phone">Telefono</label>
+                    <input class="input" type="tel" id="phone" name="phone" autocomplete="phone" required
                         placeholder="Numero de telefono">
                 </div>
-                <div>
-                    <label for="gituser">GitHub username</label>
-                    <input type="text" id="gituser" , name="gituser" autocomplete="gituser" pattern="^@[^\s]+"
-                        title="Format (@username)" placeholder="@username">
+                <div class="form__element">
+                    <label class="form__label" for="gituser">GitHub username</label>
+                    <input class="input" type="text" id="gituser" name="gituser" autocomplete="gituser"
+                        pattern="^@[^\s]+" title="Format (@username)" placeholder="@username">
                 </div>
                 <fieldset class="form__element">
                     <legend>¿Como me conociste?</legend>
-                    <div>
-                        <label for="university">Universidad</label>
+                    <div class="form__fieldset">
+                        <label class="pointer" for="university">Universidad</label>
                         <input type="radio" id="university" name="conociste" value="university">
-                        <label for="keepcoding">Keepcoding kick-off</label>
-                        <input type="radio" id="keepcoding" name="conociste" value="keepcoding">
-                        <label for="school">Colegio</label>
+                    </div>
+                    <div class="form__fieldset">
+                        <label class="pointer" for="keepcoding">Keepcoding kick-off</label>
+                        <input type="radio" id="keepcoding" name="conociste" value="keepcoding" checked>
+                    </div>
+                    <div class="form__fieldset">
+                        <label class="pointer" for="school">Colegio</label>
                         <input type="radio" id="school" name="conociste" value="school">
-                        <label for="github">Github</label>
+                    </div>
+                    <div class="form__fieldset">
+                        <label class="pointer" for="github">Github</label>
                         <input type="radio" id="github" name="conociste" value="github">
+                    </div>
                     </div>
                 </fieldset>
                 <div class="form__element">
-                    <label for="userbio">Mas informacion</label>
-                    <textarea required name="userbio" id="userbio" placeholder="Agrega informacion adicional"
-                        maxlength="180"></textarea>
+                    <label class="form__label" for="userbio">Mas informacion</label>
+                    <textarea class="input" required name="userbio" id="userbio"
+                        placeholder="Agrega informacion adicional" maxlength="180"></textarea>
                 </div>
                 <div class="form__element">
-                    <input type="checkbox" name="newsletter" id="newsletter">
-                    <label for="newsletter">Quiero acceso a newsletter</label>
+                    <div>
+                        <input type="checkbox" name="newsletter" id="newsletter">
+                        <label class="form__label pointer" for="newsletter">Quiero acceso a newsletter</label>
+                    </div>
                 </div>
-                <div class="form__element">
-                    <button class="btn">Enviar</button>
-                    <button class="btn seondary" type="reset">Reset</button>
+                <div class="form__actions">
+                    <button class="btn" type="reset">Reset</button>
+                    <button class="btn secondary">Enviar</button>
                 </div>
 
             </form>
@@ -162,13 +171,13 @@
         <div>
             <ul class="list">
                 <li class="item">
-                    <a class="btn social" href="https://www.linkedin.com/in/ramirocovian/" target="_blank"
+                    <a class="btn secondary" href="https://www.linkedin.com/in/ramirocovian/" target="_blank"
                         rel="noopener noreferrer" alt="Sigueme en linkedin">
                         <strong>LinkedIn</strong>
                     </a>
                 </li>
                 <li>
-                    <a class="btn social" href="https://github.com/RamiroCovian" target="_blank"
+                    <a class="btn secondary" href="https://github.com/RamiroCovian" target="_blank"
                         rel="noopener noreferrer" alt="" aria-label="Sigueme en GitHub">
                         <strong>GitHub</strong>
                     </a>
