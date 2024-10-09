@@ -1,0 +1,39 @@
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    height: 50vh;
+    background-color: var(--bg-color);
+    border-radius: 10%;
+
+    .assets__video {
+        position: relative;
+        align-items: center;
+        border-radius: 26%;
+    }
+
+    video {
+        width: 100%;
+        align-items: center;
+        border-radius: 26%;
+        max-width: 200px;
+    }
+}
+
+/* } */
+
+.fadeIn {
+    animation: fadeIn 3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
