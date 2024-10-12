@@ -5,6 +5,7 @@
 
     img {
         width: 100%;
+        height: 150px;
     }
 
     .list {
@@ -18,5 +19,6 @@
 
     figure {
         margin: 0;
+        text-align: center;
     }
 }
