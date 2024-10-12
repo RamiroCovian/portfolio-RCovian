@@ -1,0 +1,22 @@
+.porfolio {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 800px;
+
+    img {
+        width: 100%;
+    }
+
+    .list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+        gap: 20px;
+    }
+
+    figure {
+        margin: 0;
+    }
+}
