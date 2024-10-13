@@ -8,6 +8,11 @@
         height: 150px;
     }
 
+    .h-2 {
+        text-align: center;
+
+    }
+
     .list {
         list-style: none;
         margin: 0;
